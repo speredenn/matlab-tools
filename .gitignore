@@ -1,0 +1,13 @@
+# saves
+auto/
+*~
+\#*
+.\#*
+
+# data files
+*.h5
+*.csv
+*.mat
+
+non-free-tools/*
+!non-free-tools/get-tools.sh
