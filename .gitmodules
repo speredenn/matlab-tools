@@ -1,3 +1,6 @@
 [submodule "refrigeration/refprop-matlab-additions"]
 	path = refrigeration/refprop-matlab-additions
 	url = git@github.com:speredenn/refprop-matlab-additions.git
+[submodule "plots/matlab2tikz"]
+	path = plots/matlab2tikz
+	url = git@github.com:nschloe/matlab2tikz.git
