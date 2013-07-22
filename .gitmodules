@@ -1,3 +1,0 @@
-[submodule "refrigeration-tools/refprop-matlab-additions"]
-	path = refrigeration-tools/refprop-matlab-additions
-	url = git://github.com/speredenn/refprop-matlab-additions.git
