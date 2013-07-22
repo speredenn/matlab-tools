@@ -3,7 +3,9 @@ function [h_outlet_hx,oh_or_sc_calc]= find_enthalpy_oh_or_sc(end_chph_cdtns,goal
 %condenser or an evaporator. It uses the physical properties at the end
 %of the phase change and finds the enthalpy where the aimed temperature
 %is reached.
-%    
+%
+% Copyright (c) 2013 Jean-Baptiste Carré <jbc@0x1d.org>.
+%
 
     h_outlet_hx = fzero(@find_enthalpy_oh_or_sc_fcn,...
         end_chph_cdtns.h);

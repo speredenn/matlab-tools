@@ -10,6 +10,8 @@ function [P_in_Pa] = bar2Pa(P_in_bar)
 %
 % bar2Pa(2);
 %
+% Copyright (c) 2013 Jean-Baptiste Carré <jbc@0x1d.org>.
+%
 
 P_in_Pa = P_in_bar * 100000;
 

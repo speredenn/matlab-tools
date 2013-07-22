@@ -18,6 +18,8 @@ function flow_in_kgs = m3h2kgs(flow_in_m3h,density)
 % EXAMPLE
 %
 % flow = m3h2kgs(6500);
+% 
+% Copyright (c) 2013 Jean-Baptiste Carré <jbc@0x1d.org>.
 %
 
 flow_in_kgs = flow_in_m3h * density / 3600 ;

@@ -15,6 +15,10 @@ function cell2csv(fileName, cellArray, separator, excelYear, decimal)
 % updated by Sylvain Fiedler, Metz, 06
 % fixed the logical-bug, Kaiserslautern, 06/2008, S.Fiedler
 % added the choice of decimal separator, 11/2010, S.Fiedler
+%
+% Source: http://www.mathworks.com/matlabcentral/fileexchange/4400-cell-array-to-csv-file-cell2csv-m
+% Copyright (c) 2010 Sylvain Fiedler (http://www.mathworks.com/matlabcentral/fileexchange/authors/11927).
+%
 
 %% Checking für optional Variables
 if ~exist('separator', 'var')

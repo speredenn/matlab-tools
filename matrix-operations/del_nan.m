@@ -1,4 +1,6 @@
 function new_mat = del_nan(mat,dim)
+% Copyright (c) 2011 Jean-Baptiste Carré <jbc@0x1d.org>.
+%
     
     if nargin == 1
         dim = 3;

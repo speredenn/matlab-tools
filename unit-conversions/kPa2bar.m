@@ -16,6 +16,8 @@ function pressure_in_bar = kPa2bar(pressure_in_kPa)
 % EXAMPLE
 %
 % pressure = kPa2bar(100);
+% 
+% Copyright (c) 2013 Jean-Baptiste Carré <jbc@0x1d.org>.
 %
 
 pressure_in_bar = pressure_in_kPa / 100 ;

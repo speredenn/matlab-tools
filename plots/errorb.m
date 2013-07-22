@@ -54,11 +54,11 @@
 % Thank you to the AP-Lab at Boston University for funding me while I
 % developed these functions. Thank you to the AP-Lab, Avi and Eli for help
 % with designing and testing them.
-% Code covered by the BSD License.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Jonathan Lansey, last update Oct 2011,                                  %
-%                   questions to Lansey at gmail.com                      %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% License: BSD
+% Copyright (c) 2010 Jonathan C. Lansey <lancey@gmail.com>.
+% Source: http://www.mathworks.com/matlabcentral/fileexchange/27387-create-healthy-looking-error-bars
+%
 
 function errorb(x,y,varargin)
 %% first things first

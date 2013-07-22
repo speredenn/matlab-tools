@@ -42,6 +42,9 @@
 %     [3] "Web colors", http://en.wikipedia.org/wiki/Web_colors
 %
 %     [4] "X11 color names" http://en.wikipedia.org/wiki/X11_color_names
+%
+%     Source: http://www.mathworks.com/matlabcentral/fileexchange/24015-rgb-m
+%
 
 function rgb = rgb(s)
   persistent num name
