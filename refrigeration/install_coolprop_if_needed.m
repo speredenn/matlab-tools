@@ -25,6 +25,11 @@ if exist(folderLocation, 'dir') ~= 7
 
     cd(folderLocation)
     
+    fileID = fopen('README.txt','w') ;
+    fprintf(fileID, 'CoolProp version: %s.\nInstalled on %s.\n', ...
+        cpVersion, datestr(date, 23)) ;
+    fclose(fileID) ;
+    
     for i = 1: length(cpWrapperFileUrls)
         urlwrite(cpWrapperFileUrls{i}, cpWrapperFileNames{i});
     end
